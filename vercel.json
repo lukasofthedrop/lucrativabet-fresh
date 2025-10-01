@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
+    }
+  ],
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "APP_KEY": "base64:Tq10ZYNF64apwpe8e9vFaTFMW1wvM0BGMU1mgmfKL0I=",
+    "FILAMENT_BASE_URL": "admin",
+    "CACHE_DRIVER": "array",
+    "SESSION_DRIVER": "array",
+    "JWT_SECRET": "UEG52HCZ4N8WKDQMNX7VLIP3J9C8A2NNB78PTFQ3E1LK4VPNIMOP5X8YMGD1PXWB"
+  }
+}
