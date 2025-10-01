@@ -4,10 +4,8 @@
 .env.example
 .phpunit.result.cache
 docker-compose.yml
-Dockerfile
 README.md
 CHANGELOG.md
-docker
 node_modules
 storage/logs/*
 storage/framework/cache/*
@@ -23,14 +21,11 @@ Thumbs.db
 .php-cs-fixer.php
 .env.backup
 .phpactor
-node_modules
 npm-debug.log
 yarn-error.log
 public/hot
 public/storage
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
 .phpunit.result.cache
 .phpunit.cache
