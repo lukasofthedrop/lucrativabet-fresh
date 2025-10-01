@@ -94,3 +94,4 @@ npm-cache/
 # Other temporary
 nixpacks.toml
 .DS_Store
+.vercel
