@@ -89,7 +89,6 @@ npm-cache/
 
 # Deployment platform specific (Railway)
 .railway/
-railway.toml
 .railwayignore
 
 # Other temporary
